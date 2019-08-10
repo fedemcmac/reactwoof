@@ -9,7 +9,7 @@ const Bar = props => {
             name="dog"
             id={dog.id}
             key={dog.id}
-            onClick={event => {props.handleClick(event)}}
+            onClick={props.handleClick}
           >
             {dog.name}
           </span>
